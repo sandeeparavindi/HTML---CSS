@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseduo</title>
+    <style>
+        /* pseduo classes */
+        button{
+            background-color: black;
+            color: white;
+            width: 100px;
+            height: 40px;
+        }
+        button:hover{
+            background-color: red;
+            cursor: progress;
+            /* zoomIn, prointer option thinawa */
+        }
+        button:active{
+            background-color: yellow;
+            color: black;
+        }
+
+        /* pseduo element catch kra */
+        li:first-child{
+            color: red;
+        }
+        li:nth-child(3){
+            color: blueviolet;
+        }
+        li:last-child{
+            color: darkorange;
+        }
+
+        /* pseduo element */
+        p::before{
+            content: "Read this...";
+            color: aqua;
+        }
+        p::after{
+            content: "The End....";
+            color: blue;
+        }
+        p::first-letter{
+            font-size: 30px;
+            color: blue;
+        }
+        p::first-line{
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Lesson Pseduo</h1>
+
+    <h2>pseduo classes</h2>
+
+    <button>Click Here</button>
+
+    <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Html</li>
+        <li>TypeScript</li>
+    </ul>
+
+    <h2>Pseduo element</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, maxime culpa, quibusdam ad recusandae labore sed illum amet maiores alias mollitia sequi debitis quam saepe exercitationem commodi? Doloribus necessitatibus deleniti laudantium exercitationem accusantium reprehenderit quas totam? Labore praesentium, nesciunt repellat velit asperiores voluptas nostrum nobis laudantium distinctio ipsa iusto cupiditate voluptatem ab vel omnis beatae eaque odit perferendis corrupti perspiciatis delectus? Animi repellat nisi nemo soluta ut ratione obcaecati labore aspernatur recusandae fugit debitis laboriosam ad, maxime corporis perspiciatis dolores numquam laudantium perferendis iure dignissimos illum, architecto blanditiis quam maiores! Expedita necessitatibus nesciunt sint quidem laborum reprehenderit, eum fugiat temporibus.</p>
+
+</body>
+</html>

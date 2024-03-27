@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-11</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        *{
+    font-family: Helvetica;
+    }
+
+    .navigation-tabs{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content: flex-end;
+        color: black;
+    }
+
+    .navigation-tabs p {
+        font-size: 15px;
+        padding: 10px;
+        cursor: pointer;
+         transition: all 0.3s ease;
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+
+    .navigation-tabs p:hover {
+        background-color: #f0f0f0; 
+        border-radius: 5px;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+
+    @media screen and (max-width: 655){
+       .navigation-tabs {
+        display: block;
+       }
+    }
+
+    @media screen and (min-width: 656){
+       .navigation-tabs {
+        display: none;
+       }
+    }
+
+    </style>
+</head>
+<body>
+    <section>
+        <nav>
+            <img src="assets/1.jpg" alt="" width="100px" height="100px">
+            <div class="navigation-tabs">
+                <p>about</p>
+                <p>skill</p>
+                <p>project</p>
+                <p>contact</p>
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </nav>
+    </section>
+</body>
+</html>

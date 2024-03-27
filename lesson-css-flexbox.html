@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <style>
+        .cantainer{
+            display: flex;
+            border: 10px solid black;
+            height: 500px;
+            /* flex-direction: row;  flex withrak dunnma by default direction eka row widiyta hdgnnawa default */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+            /* api dena direction eka main axis ekata gnnwa cross direction kiynne anith eka  */
+
+            flex-direction: row;
+            /* justify-content: flex-end; */
+            /* justify-content: center; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            /* align-items: flex-start; */
+
+            /* align items kiyna eka wenne cross axis ekta */
+            /* align-items: center;   */
+
+            /* align-items: center;
+            justify-content: center; */
+            flex-wrap: wrap;
+            align-content: center;
+            /* row-gap: 20px;
+            column-gap: 20px; */
+            gap: 40px;
+        }
+        .box1{
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 60px;
+        }
+        .box2{
+            background-color: greenyellow;
+        }
+        .box3{
+            background-color: red;
+        }
+        .box4{
+            background-color: yellow;
+        }
+        .box5{
+            background-color: pink;
+        }
+        .box6{
+            background-color: greenyellow;
+        }
+        .box7{
+            background-color: red;
+        }
+        .box8{
+            background-color: yellow;
+        }
+        .box9{
+            background-color: pink;
+        }
+        .box10{
+            background-color: greenyellow;
+        }
+        .box11{
+            background-color: red;
+        }
+        .box12{
+            background-color: yellow;
+        }
+        .box13{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="cantainer">
+        <div class="box1 box2">1</div>
+        <div class="box1 box3">2</div>
+        <div class="box1 box4">3</div>
+        <div class="box1 box5">4</div>
+        <div class="box1 box6">5</div>
+        <div class="box1 box7">6</div>
+        <div class="box1 box8">7</div>
+        <div class="box1 box9">8</div>
+        <div class="box1 box10">9</div>
+        <div class="box1 box11">10</div>
+        <div class="box1 box12">11</div>
+        <div class="box1 box13">12</div>
+
+    </div>
+
+</body>
+</html>

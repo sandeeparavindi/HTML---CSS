@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-10</title>
+    <style>
+        .page{
+            display: grid;
+            /* grid-template-columns: repeat(6, 1fr); */
+            flex-wrap: wrap;
+            justify-content: center;
+            /* justify-content: space-around; */
+        }
+        .card {
+            justify-content: space-around;
+            width: 300px;
+            height: 300px;
+            background-color: antiquewhite;
+            border: 1px solid black;
+            border-radius: 20px;
+            box-shadow: 3px 3px 5px brown;
+        }
+        .image{
+            margin: 10px;
+        }
+        .text{
+             width: 240px;
+             height: 110px;
+             margin: 10px;
+             background-color: white;
+             border: 1px solid black;
+             border-radius: 20px;
+           padding: 20px;
+           text-align: left;
+        }
+        .abc{
+            display: flex;
+            justify-content: space-around
+        }
+        img{
+         border-radius: 100%;
+         border: 1px solid black;
+        }
+
+        @media screen and (min-width: 1400px) {
+            .page{
+            grid-template-columns: repeat(6, 1fr);
+        }
+        }
+        @media screen and (min-width: 1260px) and (max-width: 1399) {
+            .page{
+            grid-template-columns: repeat(5, 1fr);
+        }
+    }
+        @media screen and (min-width: 992px) and (max-width: 1199) {
+            .page{
+            grid-template-columns: repeat(4, 1fr);
+        }
+        }
+        @media screen and (min-width: 768px) and (max-width: 991) {
+            .page{
+            grid-template-columns: repeat(3, 1fr);
+        }
+        }
+        @media screen and (min-width: 596px) and (max-width: 767) {
+            .page{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        }
+        @media screen and (min-width: 0px) and (max-width: 595) {
+            .page{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Customer Reviews</h2>
+    <div class="page">
+        <div class="card">
+            <div class="abc">
+                <div class="image">
+                    <img src="/assets/1.jpg" alt="" width="80px" height="80px">
+                </div>
+                <p style="margin: 40px;">Stars</p>
+            </div>
+           <div class="text">
+                <p style="margin-top: 0px; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia similique numquam debitis? Eaque, id vitae cum necessitatibus harum fugiat doloribus sequi adipisci, minima atque in.</p>
+           </div>
+        </div>
+        <div class="card">
+            <div class="abc">
+                <div class="image">
+                    <img src="/assets/1.jpg" alt="" width="80px" height="80px">
+                </div>
+                <p style="margin: 40px;">Stars</p>
+            </div>
+           <div class="text">
+                <p style="margin-top: 0px; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia similique numquam debitis? Eaque, id vitae cum necessitatibus harum fugiat doloribus sequi adipisci, minima atque in.</p>
+           </div>
+        </div>
+        <div class="card">
+            <div class="abc">
+                <div class="image">
+                    <img src="/assets/1.jpg" alt="" width="80px" height="80px">
+                </div>
+                <p style="margin: 40px;">Stars</p>
+            </div>
+           <div class="text">
+                <p style="margin-top: 0px; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia similique numquam debitis? Eaque, id vitae cum necessitatibus harum fugiat doloribus sequi adipisci, minima atque in.</p>
+           </div>
+        </div>
+        <div class="card">
+            <div class="abc">
+                <div class="image">
+                    <img src="/assets/1.jpg" alt="" width="80px" height="80px">
+                </div>
+                <p style="margin: 40px;">Stars</p>
+            </div>
+           <div class="text">
+                <p style="margin-top: 0px; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia similique numquam debitis? Eaque, id vitae cum necessitatibus harum fugiat doloribus sequi adipisci, minima atque in.</p>
+           </div>
+        </div>
+        <div class="card">
+            <div class="abc">
+                <div class="image">
+                    <img src="/assets/1.jpg" alt="" width="80px" height="80px">
+                </div>
+                <p style="margin: 40px;">Stars</p>
+            </div>
+           <div class="text">
+                <p style="margin-top: 0px; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia similique numquam debitis? Eaque, id vitae cum necessitatibus harum fugiat doloribus sequi adipisci, minima atque in.</p>
+           </div>
+        </div>
+        <div class="card">
+            <div class="abc">
+                <div class="image">
+                    <img src="/assets/1.jpg" alt="" width="80px" height="80px">
+                </div>
+                <p style="margin: 40px;">Stars</p>
+            </div>
+           <div class="text">
+                <p style="margin-top: 0px; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia similique numquam debitis? Eaque, id vitae cum necessitatibus harum fugiat doloribus sequi adipisci, minima atque in.</p>
+           </div>
+        </div>
+     </div>
+</body>
+</html>

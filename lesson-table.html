@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tables</title>
+   <style>
+        table{
+            border: 1px solid black;
+            width: 500px;
+        }
+        th {
+            background-color: aqua;
+            border: 1px solid greenyellow;            
+        }
+        td {
+            border: 1px solid red;
+        }
+   </style>
+</head>
+   <body>
+    <table> 
+        <thead>
+            <tr>
+            <tH>Frist Name</tH>
+            <tH>Last Name</tH>
+            <tH>Address</tH>
+            <tH>Phone</tH>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Kamal</td>
+            <td>Perera</td>
+            <td>Galle</td>
+            <td>0774512145</td>
+        </tr>
+        <tr>
+            <td>Sanu</td>
+            <td>Kavya</td>
+            <td>Colombo</td>
+            <td>0774512145</td>
+        </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    <p>  </p>
+    <table>
+        <thead>
+            <tr>
+                <tH>Item Name</tH>
+                <tH>Qty</tH>
+                <tH>Price</tH>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Book</td>
+                <td>2</td>
+                <td>450.00</td>
+            </tr>
+            <tr>
+                <td>Suger</td>
+                <td>2kg</td>
+                <td>750.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td> </td>
+                <td>1200.00</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>
+
+        ======================
+
+    </p>
+    <table style="text-align: center; width: 400px;">
+        <tr style="height: 100px;">
+            <td colspan="2">1</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td>5</td>
+            <td colspan="3">6</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td>9</td>
+            <td colspan="2">10</td>
+            <td>12</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td colspan="4">13</td>
+        </tr>
+    </table>
+    <p>
+
+        ========================
+
+    </p>
+    <table style="width: 400px; text-align: center;">
+        <tr style="height: 100px;">
+            <td rowspan="2">1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td rowspan="3">6</td>
+            <td>7</td>
+            <td rowspan="3">8</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td rowspan="2">9</td>
+            <td>11</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td>15</td>
+        </tr>
+    </table>
+   </body>
+</html>

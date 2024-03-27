@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css- selector</title>
+    <style>
+        /* css selectors wlta css traverse kiylath kiynwa css selectors use krn krna wdeta poduwe kiynwa css traversing kiynwa */
+        *{
+            font-family: 'Segoe UI';
+        }
+        h2{
+            color: pink;
+        }
+
+        /* Id selector */
+        #Main-heading{
+            color: darkorange;
+        }
+
+        /* class selector */
+        .heading-selector{
+            color: blue;
+        }
+        
+        /* Attribute selector */
+        input[type ="text"]{
+            background-color: aqua;
+        }    
+        
+        button:hover{
+            background-color: red;
+            color: white;
+        }
+        p::first-line{
+            font-weight: bold;
+            color: darkblue;
+            font-size: 17px;
+        }
+        div h4 {
+            color: brown;
+        }
+        div > h5 {
+            font-weight: bold;
+            font-style: italic;
+            color: rebeccapurple;
+        }
+        h2 + p {
+            color: chocolate;
+            background-color: aqua;
+        }
+        h3 ~ p {
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <h2>Elemant Selector</h2>
+
+    <h2 id="Main-heading">Id Selector</h2>
+    
+    <h2 class="heading-selector">Class Selector</h2>
+    <h5 class="heading-selector">Class Selector</h5>
+    <h3 class="heading-selector">Class Selector</h3>
+    <p class="heading-selector">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio laudantium amet suscipit explicabo quam, natus, consectetur ipsam ab dolorum recusandae autem nulla accusantium ut dignissimos id quo! Eius, consequatur quasi.</p>
+
+    <input type="text" placeholder="Enter your name">
+    <br><br>
+    <input type="number" placeholder="Enter your age">
+    <br><br>
+
+    <!-- pseduo class and pseduo element selector -->
+    <button>Click Here</button>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, cumque placeat maiores quam nihil, magnam, perspiciatis facere qui asperiores labore id? Labore molestias quidem voluptatibus eligendi? Impedit suscipit consequuntur commodi?</p>
+
+    <!-- descedact selector -->
+    <div>
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eos aperiam voluptas quam magnam, corporis dolorem quidem accusantium assumenda possimus sed voluptatum doloremque tempora explicabo porro est sapiente, deserunt in.</h4>
+    </div>
+
+    <!-- child selector -->
+    <div>
+        <h5>Java</h5>
+        <h5>JavaScript</h5>
+        <h5>Python</h5>
+        <h5>TypeScript</h5>
+    </div>
+
+    <!-- adjacent sibling selector -->
+    <!-- athule inn aya child la ekma level eke inn ew thma sibling -->
+    <h2>Heading 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim architecto eum ex. Optio eum illo rerum. Cupiditate pariatur alias iste? Aperiam, deleniti. Voluptatibus culpa minus iste maxime tenetur dolorum, non nulla debitis optio aliquam sed distinctio, atque ducimus tempore. Dolorum animi quam labore quis eos obcaecati laborum natus, delectus veniam ab hic necessitatibus iste provident asperiores esse laboriosam accusantium doloremque facilis quasi, quas quo aperiam! Laboriosam voluptate, eaque rerum nihil dignissimos hic magnam voluptatum ducimus ea incidunt explicabo quia sed distinctio, dolor omnis cumque vitae sit? Vero repellendus ea enim praesentium repellat fugit modi rerum nulla vel, ipsam corporis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim architecto eum ex. Optio eum illo rerum. Cupiditate pariatur alias iste? Aperiam, deleniti. Voluptatibus culpa minus iste maxime tenetur dolorum, non nulla debitis optio aliquam sed distinctio, atque ducimus tempore. Dolorum animi quam labore quis eos obcaecati laborum natus, delectus veniam ab hic necessitatibus iste provident asperiores esse laboriosam accusantium doloremque facilis quasi, quas quo aperiam! Laboriosam voluptate, eaque rerum nihil dignissimos hic magnam voluptatum ducimus ea incidunt explicabo quia sed distinctio, dolor omnis cumque vitae sit? Vero repellendus ea enim praesentium repellat fugit modi rerum nulla vel, ipsam corporis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim architecto eum ex. Optio eum illo rerum. Cupiditate pariatur alias iste? Aperiam, deleniti. Voluptatibus culpa minus iste maxime tenetur dolorum, non nulla debitis optio aliquam sed distinctio, atque ducimus tempore. Dolorum animi quam labore quis eos obcaecati laborum natus, delectus veniam ab hic necessitatibus iste provident asperiores esse laboriosam accusantium doloremque facilis quasi, quas quo aperiam! Laboriosam voluptate, eaque rerum nihil dignissimos hic magnam voluptatum ducimus ea incidunt explicabo quia sed distinctio, dolor omnis cumque vitae sit? Vero repellendus ea enim praesentium repellat fugit modi rerum nulla vel, ipsam corporis.</p>
+
+    <!-- Genaral sibling selector -->
+    <!-- h3 eka lga thina okkoma p tag wlta wtenwa -->
+    <h3>Heading 3</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae molestiae aspernatur laborum fuga eum sed voluptates distinctio non soluta ipsa veritatis pariatur illo facere reiciendis aliquid fugiat et, minus suscipit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iste ex, repudiandae esse quam, labore adipisci, aliquid consequuntur praesentium provident corrupti atque doloremque repellat nostrum! Quod quas voluptatum ratione reprehenderit!</p>
+
+    <!-- anthima 4 css combinators kiyla kiynwa -->
+</body>
+</html>

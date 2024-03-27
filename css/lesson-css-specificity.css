@@ -1,0 +1,46 @@
+*{
+    font-family: 'Segoe UI';
+}
+
+p{
+    color: black;
+}
+
+.content{
+    color: red;
+}
+
+#content-id{
+    color: green;
+}
+
+h4{
+ color: blue;
+}
+
+.card-tittle{
+    color: gray;
+}
+
+#recipe-card-tittle-id{
+    color: darkorange;
+}
+
+div h4{
+    color: red;
+}
+div .card-tittle{
+    color: lightgreen;
+}
+
+div #recipe-card-tittle-id{
+    color: palevioletred;
+}
+
+.card .card-tittle{
+    color: aqua;
+}
+
+#recipe-card-id #recipe-card-tittle-id {
+    color: rgb(252, 4, 128);
+}
