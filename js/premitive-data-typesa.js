@@ -28,6 +28,9 @@ let phone = null;
 console.log("Type of phone : " +typeof phone);
 
 // 6. symbol
-let symbolss = symbol("fristName");
+let symbolss = Symbol("fristName");
 console.log(typeof symbolss);
+console.log(symbolss);
+console.log('Is :'+symbolss.toString());
+
 

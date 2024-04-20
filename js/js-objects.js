@@ -13,7 +13,7 @@ console.log("Student : ", student);
 console.log("Student phone : ", student.phone);
 console.log("Student phone : ", student['phone']);
 
-// using sot notation
+// using dot notation
 student.age = 20;
 console.log(student.age);
 console.log(student);

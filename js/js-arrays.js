@@ -20,3 +20,9 @@ console.log(fruits[5]);
 console.log(fruits);
 console.log(fruits[3]);
 console.log(fruits[4]);
+
+student = [];
+console.log(student);
+
+student = ['sanu','Ravi']
+console.log(student);
