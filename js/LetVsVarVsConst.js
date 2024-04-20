@@ -7,7 +7,7 @@ function iterateNumbers() {
 
 iterateNumbers();
 
-//var = function scope (ex : function key word eka use krpu scope)
+//var = function scope / Globle Scope (ex : function key word eka use krpu scope)
 // let = block scope (block ekk athule define krla eliye accsess krnn ba)
 
 // var use krno adui. globle variable ekak var wlin hduwoth window. kiyla ghla adala variable eka asccess krnn puluwan browser eke inspect krla consol eke.
