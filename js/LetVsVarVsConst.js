@@ -13,4 +13,15 @@ iterateNumbers();
 // var use krno adui. globle variable ekak var wlin hduwoth window. kiyla ghla adala variable eka asccess krnn puluwan browser eke inspect krla consol eke.
 // ethkot window ekth ekk link weno override wenn puluwan libraies ema add krma. api print krna eka newe smhr weleta print wenne
 
+function addName() {
+    let b = "cd"
+    if (a='abc') {
+        var a = "abc"
+        console.log(b);
+    }
+    a = 'b'
+    console.log(a);
 
+}
+
+addName(); // a is not defined error using initialize let in if condition

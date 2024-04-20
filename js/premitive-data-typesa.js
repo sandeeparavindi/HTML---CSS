@@ -33,4 +33,15 @@ console.log(typeof symbolss);
 console.log(symbolss);
 console.log('Is :'+symbolss.toString());
 
+// 7. BigInt  (premitive data type 7k thinawa)
+const number1 =  12154545215648454484454564845454845548484848n
+const number2 = 100
+
+const result = number1 + BigInt(number2);
+console.log(result); // BigInt ekathu krnwa nn dekama bigInt wenna one
+
+// Non premitive data type (3 nai)
+// 1. Object
+//2. Array
+// 3. Function
 
